@@ -18,19 +18,19 @@
 ## 🧩 Komponen Utama
 Berikut adalah aplikasi dan *tools* yang saya gunakan untuk membangun *rice* ini:
 
-|  |   |
-| :--- | :--- |
-| **OS** | Artix Linux |
-| **Window Manager** | MangoWM |
-| **Bar** | Waybar |
-| **Terminal** | Foot |
-| **Shell Prompt** | Starship |
-| **App Launcher** | Rofi |
-| **Notification Daemon** | Mako |
-| **Display Manager** | SDDM |
-| **Music Visualizer** | Cava |
-| **File Manager** | Thunar |
-| **Text Editor** | Neovim |
+|                         |             |
+| :---                    | :---        |
+| **OS**                  | Artix Linux |
+| **Window Manager**      | MangoWM     |
+| **Bar**                 | Waybar      |
+| **Terminal**            | Foot        |
+| **Shell Prompt**        | Starship    |
+| **App Launcher**        | Rofi        |
+| **Notification Daemon** | Mako        |
+| **Display Manager**     | SDDM        |
+| **Music Visualizer**    | Cava        |
+| **File Manager**        | Thunar      |
+| **Text Editor**         | Neovim      |
 
 ## 🔤 Fonts
 Pastikan font berikut terinstall di sistemmu agar simbol dan tampilan teks terlihat sempurna:
