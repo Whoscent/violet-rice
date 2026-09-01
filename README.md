@@ -137,6 +137,5 @@ Terima kasih kepada komunitas r/unixporn dan pembuat aplikasi *open-source* yang
 Jika kamu suka dengan *rice* ini, jangan lupa kasih ⭐ di repository ini!
 
 </div>
-```
 
 ***
