@@ -12,8 +12,9 @@
 
 ---
 
-## ✨ Tentang Repo Ini
-**violet-rice** adalah kumpulan *dotfiles* personal milik **Senarch**. Tema ini berfokus pada gradien warna *violet-to-pink pastel* yang mulus, dikombinasikan dengan pemandangan alam yang *muted* dan *aesthetic*. Didesain agar nyaman dilihat berjam-jam di depan layar tanpa membuat mata silau.
+## ✨ About
+
+This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm tones of the Kanagawa Wave palette. The same colors are used everywhere: terminal, notifications, boot menu, login screen, and lock screen. Nothing here feels like a separate app with its own random theme — it's all one look
 
 ## 🧩 Komponen Utama
 Berikut adalah aplikasi dan *tools* yang saya gunakan untuk membangun *rice* ini:
