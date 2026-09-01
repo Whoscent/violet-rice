@@ -4,7 +4,7 @@
 
 > *A seamless blend of scenic nature and a clean, violet-pastel terminal setup.*
 
-![Desktop Overview](Screenshots/fun.png)
+![Desktop Overview](Screenshoots/fun.png)
 
 **Artix Linux** • **MangoWM** • **Foot** • **Starship**
 
