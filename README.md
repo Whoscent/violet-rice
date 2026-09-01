@@ -18,7 +18,7 @@
 ## 🧩 Komponen Utama
 Berikut adalah aplikasi dan *tools* yang saya gunakan untuk membangun *rice* ini:
 
-| Kategori | Aplikasi |
+|  |   |
 | :--- | :--- |
 | **OS** | Artix Linux |
 | **Window Manager** | MangoWM |
@@ -41,11 +41,11 @@ Pastikan font berikut terinstall di sistemmu agar simbol dan tampilan teks terli
 ---
 
 <details>
-<summary>🖼️ <b>Gallery (Klik untuk melihat)</b></summary>
+<summary>🖼️ <b>Desktop Overview</b></summary>
 
 <br>
 
-| <img src="https://z-cdn-media.chatglm.cn/files/90aecf11-28ce-4e9e-a3d7-1eaa96ca2c79.png" width="400"/> | <img src="https://z-cdn-media.chatglm.cn/files/196323af-75b9-440c-a548-9fe540a4d5a9.png" width="400"/> |
+| <img src="/assets-mako" width="400"/> | <img src="https://z-cdn-media.chatglm.cn/files/196323af-75b9-440c-a548-9fe540a4d5a9.png" width="400"/> |
 |:---:|:---:|
 | **Desktop Overview (Waybar & Wallpaper)** | **Terminal & Starship Prompt** |
 
