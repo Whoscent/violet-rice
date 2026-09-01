@@ -61,7 +61,7 @@ Pastikan font berikut terinstall di sistemmu agar simbol dan tampilan teks terli
 |:---:|:---:|
 | **Swaylock Screen** | **Wlogout Menu** |
 
-| <img src="assets/grub.png" width="400"/> | <img src="assets/mako" width="400"/> |
+| <img src="assets/grub.png" width="400"/> | <img src="assets/mako.png" width="400"/> |
 |:---:|:---:|
 | **GRUB Theme** | **Mako Notifications** |
 
