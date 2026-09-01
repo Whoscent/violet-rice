@@ -16,6 +16,20 @@
 
 This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm tones of the Kanagawa Wave palette. The same colors are used everywhere: terminal, notifications, boot menu, login screen, and lock screen. Nothing here feels like a separate app with its own random theme — it's all one look
 
+## Highlights
+
+- 🎨 **One theme, everywhere** — the same palette and fonts follow you from the terminal to the boot screen.
+
+- 🚀 **Custom GRUB theme** — a full landscape background with a styled boot menu, not just a wallpaper swap.
+
+- 💻 **Custom Starship prompt** — a hand-picked gradient that flows from teal, to sky blue, to violet, to pink.
+
+- 🔓 **Transparent wlogout** — the power menu shows the wallpaper through it instead of a plain background.
+
+- 🎵 **Cava visualizer** — the audio bars use the same gradient as the rest of the rice.
+- 🪫 **Runs on old hardware** — this whole setup is smooth on a 2012 laptop (Intel i5-3320M, 1366x768 screen).
+
+
 ## 🧩 Komponen Utama
 Berikut adalah aplikasi dan *tools* yang saya gunakan untuk membangun *rice* ini:
 
