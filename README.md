@@ -45,7 +45,7 @@ Pastikan font berikut terinstall di sistemmu agar simbol dan tampilan teks terli
 
 <br>
 
-| <img src="/assets/mako.png" width="400"/> | <img src="/assets/sddm-login.png" width="400"/> |
+| <img src="/assets/mako.png" width="400"/> | <img src="/assets/fastfetch-foot-starship.png" width="400"/> |
 |:---:|:---:|
 | **Desktop Overview (Waybar & Wallpaper)** | **Terminal & Starship Prompt** |
 
