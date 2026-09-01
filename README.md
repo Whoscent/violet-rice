@@ -131,7 +131,7 @@ systemctl --user restart waybar mako
 
 ## 💜 Credits & Thanks
 
-Dibuat dengan ❤️ oleh **[Senarch](https://github.com/Senarch)**.
+Dibuat dengan ❤️ oleh **[Senarch](https://github.com/Senn309662)**.
 Terima kasih kepada komunitas r/unixporn dan pembuat aplikasi *open-source* yang luar biasa!
 
 Jika kamu suka dengan *rice* ini, jangan lupa kasih ⭐ di repository ini!
