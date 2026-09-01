@@ -45,7 +45,7 @@ Pastikan font berikut terinstall di sistemmu agar simbol dan tampilan teks terli
 
 <br>
 
-| <img src="/assets-mako" width="400"/> | <img src="https://z-cdn-media.chatglm.cn/files/196323af-75b9-440c-a548-9fe540a4d5a9.png" width="400"/> |
+| <img src="/assets/mako.png" width="400"/> | <img src="https://z-cdn-media.chatglm.cn/files/196323af-75b9-440c-a548-9fe540a4d5a9.png" width="400"/> |
 |:---:|:---:|
 | **Desktop Overview (Waybar & Wallpaper)** | **Terminal & Starship Prompt** |
 
