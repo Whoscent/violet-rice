@@ -30,8 +30,7 @@ This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm to
 - 🪫 **Runs on old hardware** — this whole setup is smooth on a 2012 laptop (Intel i5-3320M, 1366x768 screen).
 
 
-## 🧩 Komponen Utama
-Berikut adalah aplikasi dan *tools* yang saya gunakan untuk membangun *rice* ini:
+## 🧩 My Setup
 
 |                         |             |
 | :---                    | :---        |
@@ -56,7 +55,7 @@ Pastikan font berikut terinstall di sistemmu agar simbol dan tampilan teks terli
 ---
 
 <details>
-<summary>🖼️ <b>Desktop Overview</b></summary>
+<summary>🖼️ <b>Gallery</b></summary>
 
 <br>
 
