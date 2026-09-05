@@ -58,20 +58,20 @@ This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm to
 
 ## Specs
 
-```
-OS         ~  Artix Linux
-WM         ~  MangoWM (Wayland)
-Terminal   ~  foot
-Shell      ~  bash
-Prompt     ~  Starship
-Bar        ~  Waybar
-Launcher   ~  Rofi
-Notify     ~  Mako
-Lock       ~  Swaylock
-Visualizer ~  Cava
-Font (UI)  ~  Cormorant Garamond
-Font (Mono)~  JetBrainsMono Nerd Font
-```
+|                         |             |
+| :---                    | :---        |
+| **OS**                  | Artix Linux |
+| **Window Manager**      | MangoWM     |
+| **Bar**                 | Waybar      |
+| **Terminal**            | Foot        |
+| **Shell Prompt**        | Starship    |
+| **App Launcher**        | Rofi        |
+| **Notification Daemon** | Mako        |
+| **Display Manager**     | SDDM        |
+| **Music Visualizer**    | Cava        |
+| **File Manager**        | Thunar      |
+| **Text Editor**         | Neovim      |
+
 
 ## Installation
 
@@ -82,8 +82,8 @@ There is no install script yet, so setup is manual for now.
 Most of these are in the official Artix repos. A few, like `mango`, may need an AUR helper such as `yay`.
 
 ```bash
-sudo pacman -S waybar rofi foot mako swaylock cava starship grub imagemagick p7zip
-yay -S mango
+sudo pacman -S --needed waybar rofi foot mako swaylock cava starship grub imagemagick p7zip
+yay -S --needed mango
 ```
 
 *Package names can be different depending on your repos — check before you install.*
