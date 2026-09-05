@@ -3,7 +3,7 @@
 A *Violet Evergarden* × Kanagawa Wave rice for Artix Linux, running on MangoWM (Wayland).
 
 <p align="center">
-  <img src="assets/sddm.png" width="800" alt="Desktop overview">
+  <img src="assets/sddm-login.png" width="800" alt="Desktop overview">
 </p>
 
 ## About
@@ -33,7 +33,7 @@ This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm to
 
 <details>
 <summary>SDDM Login</summary>
-<img src="assets/sddm.png" width="800">
+<img src="assets/sddm-login.png" width="800">
 </details>
 
 <details>
