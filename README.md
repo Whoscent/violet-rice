@@ -3,7 +3,7 @@
 A *Violet Evergarden* × Kanagawa Wave rice for Artix Linux, running on MangoWM (Wayland).
 
 <p align="center">
-  <img src="assets/screenshots/desktop.png" width="800" alt="Desktop overview">
+  <img src="assets/sddm.png" width="800" alt="Desktop overview">
 </p>
 
 ## About
@@ -33,27 +33,27 @@ This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm to
 
 <details>
 <summary>SDDM Login</summary>
-<img src="assets/screenshots/sddm.png" width="800">
+<img src="assets/sddm.png" width="800">
 </details>
 
 <details>
 <summary>GRUB Boot Menu</summary>
-<img src="assets/screenshots/grub.png" width="800">
+<img src="assets/grub.png" width="800">
 </details>
 
 <details>
 <summary>Wlogout</summary>
-<img src="assets/screenshots/wlogout.png" width="800">
+<img src="assets/wlogout.png" width="800">
 </details>
 
 <details>
 <summary>Swaylock</summary>
-<img src="assets/screenshots/swaylock.png" width="800">
+<img src="assets/swaylock.png" width="800">
 </details>
 
 <details>
 <summary>Mako Notifications</summary>
-<img src="assets/screenshots/mako.png" width="800">
+<img src="assets/mako.png" width="800">
 </details>
 
 ## Specs
@@ -154,4 +154,4 @@ Log out and back in (or reboot) so everything loads together.
 
 ## Credits
 
-Made by [@senarch](https://github.com/senarch)
+Made by [@Whosent](https://github.com/Whosent)
