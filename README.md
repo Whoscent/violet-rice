@@ -36,6 +36,7 @@ This rice mixes the soft and elegant colors of *Violet Evergarden*.
 <details>
 <summary>💌Menu</summary>
 <br>
+
 **📬Rofi**
 <br> <br>
 <img src="assets/rofi.png" width="550">
