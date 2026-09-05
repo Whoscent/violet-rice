@@ -1,142 +1,157 @@
-<div align="center">
+# Violet Rice 🎨
 
-# 🌸 violet-rice
+A *Violet Evergarden* × Kanagawa Wave rice for Artix Linux, running on MangoWM (Wayland).
 
-> *A seamless blend of scenic nature and a clean, violet-pastel terminal setup.*
+<p align="center">
+  <img src="assets/screenshots/desktop.png" width="800" alt="Desktop overview">
+</p>
 
-![Desktop Overview](/assets/sddm-login.png)
+## About
 
-**Artix Linux** • **MangoWM** • **Foot** • **Starship**
+This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm tones of the Kanagawa Wave palette. The same colors and fonts are used everywhere: terminal, notifications, boot menu, login screen, and lock screen. Nothing here feels like a separate app with its own random theme — it's all one look.
 
-</div>
+## Highlights
 
----
+- 🎨 **One theme, everywhere** — the same palette and fonts follow you from the terminal to the boot screen.
+- 🚀 **Custom GRUB theme** — a full landscape background with a styled boot menu, not just a wallpaper swap.
+- 💻 **Custom Starship prompt** — a hand-picked gradient that flows from teal, to sky blue, to violet, to pink.
+- 🔓 **Transparent wlogout** — the power menu shows the wallpaper through it instead of a plain background.
+- 🎵 **Cava visualizer** — the audio bars use the same gradient as the rest of the rice.
+- 🪫 **Runs on old hardware** — this whole setup is smooth on a 2012 laptop (Intel i5-3320M, 1366x768 screen).
 
-## ✨ About
-
-This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm tones of the Kanagawa Wave palette. The same colors are used everywhere: terminal, notifications, boot menu, login screen, and lock screen. Nothing here feels like a separate app with its own random theme — it's all one look
-
-
-## 🧩 My Setup
-
-|                         |             |
-| :---                    | :---        |
-| **OS**                  | Artix Linux |
-| **Window Manager**      | MangoWM     |
-| **Bar**                 | Waybar      |
-| **Terminal**            | Foot        |
-| **Shell Prompt**        | Starship    |
-| **App Launcher**        | Rofi        |
-| **Notification Daemon** | Mako        |
-| **Display Manager**     | SDDM        |
-| **Music Visualizer**    | Cava        |
-| **File Manager**        | Thunar      |
-| **Text Editor**         | Neovim      |
-
-## 🔤 Fonts
-Pastikan font berikut terinstall di sistemmu agar simbol dan tampilan teks terlihat sempurna:
-- `JetBrainsMono Nerd Font`
-- `Cormorant Garamond`
-- `EB Garamond`
-
----
+## Screenshots
 
 <details>
-<summary>🖼️ <b>Gallery</b></summary>
-
-<br>
-
-| <img src="/assets/mako.png" width="400"/> | <img src="/assets/fastfetch-foot-starship.png" width="400"/> |
-|:---:|:---:|
-| **Desktop Overview (Waybar & Wallpaper)** | **Terminal & Starship Prompt** |
-
-| <img src="/assets/swaylock.png" width="400"/> | <img src="/assets/wlogout.png" width="400"/> |
-|:---:|:---:|
-| **Media & Cava Visualizer** | **Rofi App Launcher** |
-
-| <img src="/assets/swaylock.png" width="400"/> | <img src="/assets/sddm-login.png" width="400"/> |
-|:---:|:---:|
-| **NetworkManager** | **SDDM Login Screen** |
-
-| <img src="assets/swaylock.png" width="400"/> | <img src="assets/wlogout.png" width="400"/> |
-|:---:|:---:|
-| **Swaylock Screen** | **Wlogout Menu** |
-
-| <img src="assets/grub.png" width="400"/> | <img src="assets/mako.png" width="400"/> |
-|:---:|:---:|
-| **GRUB Theme** | **Mako Notifications** |
-
+<summary>Desktop & Waybar</summary>
+<img src="assets/screenshots/desktop.png" width="800">
 </details>
 
----
+<details>
+<summary>Rofi</summary>
+<img src="assets/screenshots/rofi.png" width="800">
+</details>
 
 <details>
-<summary>🚀 <b>Instalasi (Klik untuk melihat)</b></summary>
+<summary>SDDM Login</summary>
+<img src="assets/screenshots/sddm.png" width="800">
+</details>
 
-<br>
+<details>
+<summary>GRUB Boot Menu</summary>
+<img src="assets/screenshots/grub.png" width="800">
+</details>
 
-> ⚠️ **Peringatan:** Repo ini adalah konfigurasi personal. Pastikan kamu sudah membackup config lama kamu sebelum mengoverwrite. Tidak ada `install.sh` otomatis, jadi kita akan melakukannya manual.
+<details>
+<summary>Wlogout</summary>
+<img src="assets/screenshots/wlogout.png" width="800">
+</details>
 
-### 1. Install Dependencies
-Install semua aplikasi yang dibutuhkan. Jika kamu menggunakan Artix Linux (pacman), jalankan:
-```bash
-sudo pacman -S mangowm foot starship waybar rofi mako sddm cava thunar neovim
+<details>
+<summary>Swaylock</summary>
+<img src="assets/screenshots/swaylock.png" width="800">
+</details>
+
+<details>
+<summary>Mako Notifications</summary>
+<img src="assets/screenshots/mako.png" width="800">
+</details>
+
+## Specs
+
 ```
-*Catatan: Untuk MangoWM, pastikan kamu install dari AUR atau compile dari source sesuai panduan resminya.*
-
-### 2. Install Fonts
-Jangan lupa install font yang dibutuhkan:
-```bash
-sudo pacman -S ttf-jetbrains-mono-nerd
-# Untuk EB Garamond dan Cormorant Garamond, cari di AUR atau unduh manual
+OS         ~  Artix Linux
+WM         ~  MangoWM (Wayland)
+Terminal   ~  foot
+Shell      ~  bash
+Prompt     ~  Starship
+Bar        ~  Waybar
+Launcher   ~  Rofi
+Notify     ~  Mako
+Lock       ~  Swaylock
+Visualizer ~  Cava
+Font (UI)  ~  Cormorant Garamond
+Font (Mono)~  JetBrainsMono Nerd Font
 ```
 
-### 3. Clone Repository
+## Installation
+
+There is no install script yet, so setup is manual for now.
+
+### 1. Install the packages
+
+Most of these are in the official Artix repos. A few, like `mango`, may need an AUR helper such as `yay`.
+
 ```bash
-git clone https://github.com/Senarch/violet-rice.git
-cd violet-rice
+sudo pacman -S waybar rofi foot mako swaylock cava starship grub imagemagick p7zip
+yay -S mango
 ```
 
-### 4. Copy Konfigurasi
-Pindahkan folder konfigurasi ke direktori `~/.config/` di sistemmu. Contoh untuk beberapa aplikasi utama:
+*Package names can be different depending on your repos — check before you install.*
+
+### 2. Copy the `.config` folder
+
+This mirrors your real `~/.config/`, so one copy handles almost everything:
+
 ```bash
-# Contoh copy MangoWM, Waybar, Foot, Starship, dll
-cp -r mangowm ~/.config/
-cp -r waybar ~/.config/
-cp -r foot ~/.config/
-cp -r starship ~/.config/
-cp -r rofi ~/.config/
-cp -r mako ~/.config/
-cp -r cava ~/.config/
+cp -r .config/. ~/.config/
 ```
 
-### 5. Setup GRUB Theme
-- Copy folder theme ke `/boot/grub/themes/`
-- Edit file `/etc/default/grub` dan tambahkan: `GRUB_THEME="/boot/grub/themes/violet-rice/theme.txt"`
-- Update GRUB:
+### 3. Set up wlogout
+
+```bash
+sudo cp -r wlogout/etc/wlogout /etc/wlogout
+sudo cp -r wlogout/usr/share/wlogout /usr/share/wlogout
+```
+
+### 4. Set up the GRUB theme
+
+```bash
+sudo cp -r grub-theme /boot/grub/themes/violetgrub
+```
+
+Open `/etc/default/grub` and set:
+
+```
+GRUB_THEME="/boot/grub/themes/violetgrub/theme.txt"
+```
+
+Then update GRUB:
+
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-### 6. Restart Service
-Restart service yang berjalan di background agar config baru terbaca, atau bisa juga langsung *reboot* PC kamu:
+### 5. Set up SDDM
+
 ```bash
-systemctl --user restart waybar mako
+sudo cp -r sddm-theme /usr/share/sddm/themes/violet-sddm
+sudo cp etc-configs/sddm.conf.d/theme.conf /etc/sddm.conf.d/
 ```
 
-</details>
+### 6. Turn on Starship
 
----
+Add this line to the end of `~/.bashrc`:
 
-<div align="center">
+```bash
+eval "$(starship init bash)"
+```
 
-## 💜 Credits & Thanks
+### 7. Reload
 
-Dibuat dengan ❤️ oleh **[Senarch](https://github.com/Senn309662)**.
-Terima kasih kepada komunitas r/unixporn dan pembuat aplikasi *open-source* yang luar biasa!
+Log out and back in (or reboot) so everything loads together.
 
-Jika kamu suka dengan *rice* ini, jangan lupa kasih ⭐ di repository ini!
+## Notes
 
-</div>
+- This was built and tested on my own laptop, so some paths and sizes may need small changes for your screen.
+- If any icon shows up as a box instead of a symbol, your terminal font is probably not a Nerd Font. Make sure it's set to something like `JetBrainsMono Nerd Font`, not plain `JetBrains Mono`.
+- The wallpapers here are already resized and compressed for normal use. If you want the full-resolution originals, keep your own copy — they aren't in this repo.
 
-***
+## Inspiration
+
+- The SDDM theme (`sddm-theme/`) is based on the **meloworld-sddm** theme from [melatonia/meloworld-dotfiles](https://github.com/melatonia/meloworld-dotfiles) (MIT license). Big thanks — I mostly swapped the background, colors, and font.
+- The wlogout icons come from [onlinewebfonts](https://www.onlinewebfonts.com/) (CC 3.0) — see `wlogout/usr/share/wlogout/assets/CREDIT.md` for the exact links.
+<!-- add any other rices/configs that inspired this one here -->
+
+## Credits
+
+Made by [@senarch](https://github.com/senarch)
