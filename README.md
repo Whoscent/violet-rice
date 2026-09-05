@@ -1,60 +1,73 @@
-# Violet Rice 🎨
+# Violet Rice 💜
+ 
+A *Violet Evergarden* rice for Artix Linux (works in Arch too, or maybe in other disto), running on MangoWM (Wayland). 
 
-A *Violet Evergarden* × Kanagawa Wave rice for Artix Linux, running on MangoWM (Wayland).
-
+---
 <p align="center">
-  <img src="assets/sddm-login.png" width="800" alt="Desktop overview">
+  <img src="assets/idk.png width="800" alt="Desktop overview">
 </p>
+
+---
 
 ## About
 
-This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm tones of the Kanagawa Wave palette. The same colors and fonts are used everywhere: terminal, notifications, boot menu, login screen, and lock screen. Nothing here feels like a separate app with its own random theme — it's all one look.
+This rice mixes the soft and elegant colors of *Violet Evergarden*. 
+
+---
 
 ## Highlights
-
-- 🎨 **One theme, everywhere** — the same palette and fonts follow you from the terminal to the boot screen.
-- 🚀 **Custom GRUB theme** — a full landscape background with a styled boot menu, not just a wallpaper swap.
 - 💻 **Custom Starship prompt** — a hand-picked gradient that flows from teal, to sky blue, to violet, to pink.
-- 🔓 **Transparent wlogout** — the power menu shows the wallpaper through it instead of a plain background.
 - 🎵 **Cava visualizer** — the audio bars use the same gradient as the rest of the rice.
-- 🪫 **Runs on old hardware** — this whole setup is smooth on a 2012 laptop (Intel i5-3320M, 1366x768 screen).
+- 🪫 **Runs on old hardware** — this whole setup is smooth on a 2012 laptop Lenovo G480 (Intel i5-3320M, 8GB RAM, SSD).
+
+---
 
 ## Screenshots
-
 <details>
-<summary>Desktop & Waybar</summary>
-<img src="assets/screenshots/desktop.png" width="800">
+<summary>🏡Home</summary>
+<img src="assets/home.png" width="800">
 </details>
 
 <details>
-<summary>Rofi</summary>
-<img src="assets/screenshots/rofi.png" width="800">
+<summary>👣Foot</summary>
+<img src="assets/foot.png" width="800">
 </details>
 
 <details>
-<summary>SDDM Login</summary>
-<img src="assets/sddm-login.png" width="800">
+<summary>💌Menu</summary>
+  <br>
+📬Rofi <img src="assets/rofi.png">
+  
+---
+🛜Wifi <img src= "assets/nm.png">
 </details>
 
 <details>
-<summary>GRUB Boot Menu</summary>
+<summary>🔐SDDM Login</summary>
+<img src="assets/sddm.png" width="800">
+</details>
+
+<details>
+<summary>💘GRUB Boot Menu</summary>
 <img src="assets/grub.png" width="800">
 </details>
 
 <details>
-<summary>Wlogout</summary>
+<summary>⚡Power Menu</summary>
 <img src="assets/wlogout.png" width="800">
 </details>
 
 <details>
-<summary>Swaylock</summary>
+<summary>🔑Swaylock</summary>
 <img src="assets/swaylock.png" width="800">
 </details>
 
 <details>
-<summary>Mako Notifications</summary>
+<summary>🔔Mako Notifications</summary>
 <img src="assets/mako.png" width="800">
 </details>
+
+---
 
 ## Specs
 
@@ -69,9 +82,8 @@ This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm to
 | **Notification Daemon** | Mako        |
 | **Display Manager**     | SDDM        |
 | **Music Visualizer**    | Cava        |
-| **File Manager**        | Thunar      |
-| **Text Editor**         | Neovim      |
 
+---
 
 ## Installation
 
@@ -79,11 +91,12 @@ There is no install script yet, so setup is manual for now.
 
 ### 1. Install the packages
 
-Most of these are in the official Artix repos. A few, like `mango`, may need an AUR helper such as `yay`.
+Most of these are in the official Artix repos. A few, like `mango`, may need an AUR helper such as `yay` or `paru`.
 
 ```bash
 sudo pacman -S --needed waybar rofi foot mako swaylock cava starship grub imagemagick p7zip
 yay -S --needed mango
+
 ```
 
 *Package names can be different depending on your repos — check before you install.*
@@ -154,4 +167,4 @@ Log out and back in (or reboot) so everything loads together.
 
 ## Credits
 
-Made by [@Whosent](https://github.com/Whosent)
+Made by [@Whoscent](https://github.com/Whoscent)
