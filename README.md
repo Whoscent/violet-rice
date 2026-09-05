@@ -35,11 +35,15 @@ This rice mixes the soft and elegant colors of *Violet Evergarden*.
 
 <details>
 <summary>💌Menu</summary>
-  <br>
-📬Rofi <img src="assets/rofi.png">
+<br>
+**📬Rofi**
+<br> <br>
+<img src="assets/rofi.png" width="550">
   
 ---
-🛜Wifi <img src= "assets/nm.png">
+**🛜Wifi**
+<br> <br>
+<img src= "assets/nm.png" width="550">
 </details>
 
 <details>
@@ -64,7 +68,7 @@ This rice mixes the soft and elegant colors of *Violet Evergarden*.
 
 <details>
 <summary>🔔Mako Notifications</summary>
-<img src="assets/mako.png" width="800">
+<img src="assets/mako.png" width="400">
 </details>
 
 ---
