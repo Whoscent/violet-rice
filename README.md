@@ -99,14 +99,24 @@ There is no install script yet, so setup is manual for now.
 Most of these are in the official Artix repos. A few, like `mango`, may need an AUR helper such as `yay` or `paru`.
 
 ```bash
-sudo pacman -S --needed waybar rofi foot mako swaylock cava starship grub imagemagick p7zip
-yay -S --needed mango
+# Install packages from official repos
+sudo pacman -S --needed waybar rofi foot mako swaylock cava starship grub imagemagick p7zip ttf-jetbrains-mono-nerd ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra pipewire pipewire-alsa pipewire-pulse wireplumber pamixer pavucontrol networkmanager networkmanager-dinit network-manager-applet nm-connection-editor tlp thermald thermald-dinit tlp-dinit grim slurp wf-recorder wl-clipboard cliphist wl-clip-persist jq ripgrep fd fzf git xdg-desktop-portal-wlr polkit-gnome thunar tumbler gvfs sddm sddm-dinit wlogout
+
+# Install packages from AUR
+paru -S --needed mangowm-git scenefx0.5 swaylock-effects-git swayosd-git wlr-dpms-git rofi-emoji-git ttf-google-fonts-typewolf ttf-ms-fonts
 
 ```
 
 *Package names can be different depending on your repos — check before you install.*
 
-### 2. Copy the `.config` folder
+### 2. Install Fonts (Required)
+To ensure icons and symbols render correctly, make sure you have a Nerd Font installed. The following fonts are recommended:
+```bash
+sudo pacman -S ttf-jetbrains-mono-nerd ttf-firacode-nerd
+paru -S ttf-google-fonts-typewolf ttf-ms-fonts
+```
+
+### 3. Copy the `.config` folder
 
 This mirrors your real `~/.config/`, so one copy handles almost everything:
 
@@ -114,14 +124,14 @@ This mirrors your real `~/.config/`, so one copy handles almost everything:
 cp -r .config/. ~/.config/
 ```
 
-### 3. Set up wlogout
+### 4. Set up wlogout
 
 ```bash
 sudo cp -r wlogout/etc/wlogout /etc/wlogout
 sudo cp -r wlogout/usr/share/wlogout /usr/share/wlogout
 ```
 
-### 4. Set up the GRUB theme
+### 5. Set up the GRUB theme
 
 ```bash
 sudo cp -r grub-theme /boot/grub/themes/violetgrub
@@ -158,6 +168,28 @@ eval "$(starship init bash)"
 
 Log out and back in (or reboot) so everything loads together.
 
+## 🎯 Optional Packages
+
+```bash
+# Development Tools
+lazygit
+neovim
+vim
+
+# Applications (personal preference)
+qbittorrent
+mpv
+libreoffice-fresh
+flatpak
+vscodium-bin
+
+# Hardware Specific
+broadcom-bt-firmware-git 
+bluez
+bluez-utils
+blueman
+```
+
 ## Notes
 
 - This was built and tested on my own laptop, so some paths and sizes may need small changes for your screen.
@@ -172,4 +204,4 @@ Log out and back in (or reboot) so everything loads together.
 
 ## Credits
 
-Made by [@Whoscent](https://github.com/Whoscent)
+Made with 💜, by [@Whoscent](https://github.com/Whoscent)
