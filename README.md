@@ -4,7 +4,7 @@ A *Violet Evergarden* rice for Artix Linux (works in Arch too, or maybe in other
 
 ---
 <p align="center">
-  <img src="assets/idk.png" width="800" alt="Desktop overview">
+  <img src="assets/yes.png" width="800" alt="Desktop overview">
 </p>
 
 ---
