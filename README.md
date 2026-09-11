@@ -48,9 +48,9 @@ This rice mixes the soft and elegant colors of *Violet Evergarden*.
 </details>
 
 ---
-**📶 Bluetooth**
+**📄 Keybinds Cheat sheets**
 <br>
-<img src= "assets/bluetooth.png" width="550">
+<img src= "assets/keybinds.png" width="550">
 </details>
 
 <details>
