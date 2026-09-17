@@ -91,7 +91,7 @@ This rice mixes the soft and elegant colors of *Violet Evergarden*.
 | **App Launcher**        | Rofi        |
 | **Notification Daemon** | Mako        |
 | **Display Manager**     | SDDM        |
-| **Music Visualizer**    | Cava        |
+| **Lock Screen**         | Veila      |
 
 ---
 
