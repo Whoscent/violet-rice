@@ -68,8 +68,8 @@ This rice mixes the soft and elegant colors of *Violet Evergarden*.
 </details>
 
 <details>
-<summary>🔑Swaylock</summary>
-<img src="assets/swaylock.png" width="800">
+<summary>🔑Lock Screen</summary>
+<img src="assets/lock.png" width="800">
 </details>
 
 <details>
