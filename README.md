@@ -1,9 +1,9 @@
 # Violet Rice
 
-A *Violet Evergarden* × Kanagawa Wave rice for Artix Linux, running MangoWM on Wayland.
+A *Violet Evergarden* rice for Artix Linux, running MangoWM on Wayland.
 
 <p align="center">
-  <img src="assets/screenshots/desktop.jpg" width="820" alt="Desktop">
+  <img src="assets/home.png" width="820" alt="Desktop">
 </p>
 
 ## About
@@ -26,47 +26,47 @@ Built and tested on a 2012 ThinkPad-era laptop (Intel i5-3320M, 1366x768), so it
 
 <details>
 <summary>Desktop, Cava & Fastfetch</summary>
-<img src="assets/screenshots/home.jpg" width="820">
+<img src="assets/yes.png" width="820">
 </details>
 
 <details>
 <summary>Terminal (foot + Starship)</summary>
-<img src="assets/screenshots/terminal.jpg" width="820">
+<img src="assets/foot.png" width="820">
 </details>
 
 <details>
 <summary>Lock screen (Veila)</summary>
-<img src="assets/screenshots/lock.jpg" width="820">
+<img src="assets/lock.png" width="820">
 </details>
 
 <details>
 <summary>Login (SDDM)</summary>
-<img src="assets/screenshots/sddm.jpg" width="820">
+<img src="assets/sddm.png" width="820">
 </details>
 
 <details>
 <summary>Rofi launcher</summary>
-<img src="assets/screenshots/rofi.jpg" width="820">
+<img src="assets/rofi.png" width="820">
 </details>
 
 <details>
 <summary>Rofi keybinds cheatsheet</summary>
-<img src="assets/screenshots/keybinds.jpg" width="820">
+<img src="assets/keybinds.png" width="820">
 </details>
 
 <details>
 <summary>Rofi network menu</summary>
-<img src="assets/screenshots/network.jpg" width="820">
+<img src="assets/nm.png" width="820">
 </details>
 
 <details>
 <summary>Wlogout</summary>
-<img src="assets/screenshots/wlogout.jpg" width="820">
+<img src="assets/wlogout.png" width="820">
 </details>
 
 <details>
 <summary>Mako notifications</summary>
-<img src="assets/screenshots/mako.png" width="440">
+<img src="assets/mako.png" width="440">
 </details>
 
 ## Specs
