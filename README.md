@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32424168/README.md)
 # Violet Rice 💜
 
 A *Violet Evergarden* rice for Artix Linux (works on Arch too, and probably other distros), running on MangoWM (Wayland).
