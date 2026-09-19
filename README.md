@@ -11,7 +11,7 @@ A *Violet Evergarden* rice for Artix Linux (works on Arch too, and probably othe
 
 ## About
 
-This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm tones of the Kanagawa Wave palette. The same colors and fonts follow you everywhere — boot menu, login screen, lock screen, terminal, bar, and notifications. Nothing here looks like a separate app that came with its own random theme.
+This rice mixes the soft, elegant colors of *Violet Evergarden* with the warm tones of the Kanagawa Wave palette. The same colors and fonts follow you everywhere — boot menu, login screen, lock screen, terminal, bar, and notifications.
 
 It runs on **dinit**, not systemd, and the whole thing is smooth on a 2012 laptop.
 
@@ -23,7 +23,7 @@ It runs on **dinit**, not systemd, and the whole thing is smooth on a 2012 lapto
 - 🚀 **Custom GRUB theme** — a full landscape background with styled menu entries, not just a wallpaper swap.
 - 💻 **Custom Starship prompt** — a hand-picked gradient that flows from teal, to sky blue, to violet, to pink.
 - 🔑 **Veila lock screen** — clock, date, and a now-playing panel that only appears when music is playing.
-- 📄 **Keybinds cheat sheet** — hit `Super + /` and every keybind shows up in Rofi. No more grepping your own config.
+- 📄 **Keybinds cheat sheet** — hit `Alt + Menu` and every keybind shows up in Rofi. No more grepping your own config.
 - 🔓 **Transparent wlogout** — the power menu shows the wallpaper through it instead of a flat background.
 - 🎵 **Cava visualizer** — the audio bars use the same gradient as the rest of the rice.
 - 🪫 **Runs on old hardware** — smooth on a 2012 Lenovo G480 (Intel i5-3320M, 8GB RAM, SSD, 1366x768).
@@ -181,8 +181,6 @@ chmod +x ~/.config/waybar/scripts/*.sh
 chmod +x ~/.config/mango/scripts/*.sh
 chmod +x ~/.config/scripts/screenshot
 ```
-
-The screenshot script saves to `$HOME/DataCaddy/Pictures`. Edit `~/.config/scripts/screenshot` if you want it somewhere else.
 
 ### 3. Enable services
 
@@ -349,7 +347,7 @@ grub2-theme-preview    # preview GRUB themes without rebooting
 ## Inspiration
 
 - The SDDM theme (`sddm-theme/`) is based on the **meloworld-sddm** theme from [melatonia/meloworld-dotfiles](https://github.com/melatonia/meloworld-dotfiles) (MIT license). Big thanks — I mostly swapped the background, colors, and font.
-- The GRUB layout is adapted from the **space-isolation** theme, with the menu entry styling borrowed from [Wuthering-grub2-themes](https://github.com/vinceliuice/grub2-themes).
+- The GRUB layout is adapted from the [space-isolation](https://github.com/callmenoodles/space-isolation) theme, with the menu entry styling borrowed from [Wuthering-grub2-themes](https://github.com/vinceliuice/Wuthering-grub2-themes)
 - The wlogout icons come from [onlinewebfonts](https://www.onlinewebfonts.com/) (CC 3.0) — see `wlogout/usr/share/wlogout/assets/CREDIT.md` for the exact links.
 - Lock screen powered by [Veila](https://github.com/naurissteins/Veila).
 - Wallpapers and character art are from *Violet Evergarden* (Kyoto Animation), used here for personal theming only.
