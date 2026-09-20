@@ -1,0 +1,202 @@
+# --- BACKGROUND ---
+[background]
+mode = "file"
+path = "~/.config/veila/violetlock.png"
+color = "#1F1F28" 
+dim_strength = 35  
+blur_strength = 0  
+
+# --- WIDGETS & STATUS ---
+
+[battery]
+enabled = true
+
+[weather]
+enabled = false 
+
+[visuals.clock]
+format = "24h"
+style = "standard"
+font_family = "EB Garamond"
+font_weight = 600
+color = "#DCD7BA" 
+font_size = 82
+halign = "center"
+valign = "top"
+x = 0
+y = 50
+
+[visuals.date]
+format = "long"
+font_family = "EB Garamond"
+font_style = "italic"
+font_weight = 800
+font_size = 18
+color = "#000000"
+halign = "center"
+valign = "top"
+x = 0
+y = 140
+
+[visuals.battery]
+background_size = 42
+radius = 21
+background_color = "rgba(31, 31, 40, 0.5)"
+color = "#DCD7BA"
+size = 18
+halign = "right"
+valign = "top"
+x = -40
+y = 40
+
+[visuals.keyboard]
+background_size = 42
+radius = 21
+background_color = "rgba(31, 31, 40, 0.5)"
+color = "#DCD7BA"
+size = 16
+halign = "right"
+valign = "top"
+x = -40
+y = 90
+
+[visuals.now_playing]
+enabled = true
+fade_duration_ms = 320
+
+[visuals.now_playing.artwork]
+size = 50
+radius = 12
+opacity = 90
+halign = "left"
+valign = "center"
+x = 15
+y = 0
+relative_to = "now_playing"
+
+[visuals.now_playing.title]
+width = 300
+color = "#DCD7BA"
+font_family = "EB Garamond"
+font_size = 25
+font_weight = 600
+halign = "left"
+valign = "top"
+x = 75
+y = 8
+relative_to = "now_playing"
+
+[visuals.now_playing.artist]
+width = 300
+color = "rgba(149, 127, 184, 1.0)"
+font_family = "EB Garamond"
+font_style = "italic"
+font_size = 18
+font_weight = 600
+halign = "left"
+valign = "bottom"
+x = 75
+y = -8
+relative_to = "now_playing"
+
+# --- USERNAME & AVATAR ---
+[visuals.username]
+enabled = false 
+
+[visuals.avatar]
+# image_path = "~/.config/veila/violet.png" 
+size = 42
+background_color = "rgba(31, 31, 40, 0.0)" 
+placeholder_padding = 4
+icon_color = "#DCD7BA"
+halign = "center"
+valign = "center"
+x = 0
+y = 0
+relative_to = "auth_avatar_pill" 
+
+[[visuals.backdrop]]
+enabled = true
+name = "auth_avatar_pill"
+mode = "blur"
+color = "rgba(31, 31, 40, 0.55)"
+blur_strength = 20
+radius = 40
+border_color = "rgba(149, 127, 184, 0.35)"
+border_width = 1
+width = 70            
+height = 70
+halign = "center"
+valign = "bottom"
+x = -160              
+y = -60
+z = 0
+
+
+[[visuals.backdrop]]
+enabled = true
+name = "auth_input_pill"
+mode = "blur"
+color = "rgba(31, 31, 40, 0.55)"
+blur_strength = 20
+radius = 40
+border_color = "rgba(149, 127, 184, 0.35)"
+border_width = 1
+width = 320           
+height = 70
+halign = "center"
+valign = "bottom"
+x = 40                
+y = -60
+z = 0
+
+[visuals.input]
+placeholder = "Password"
+background_color = "rgba(31, 31, 40, 0.0)"
+border_color = "rgba(0, 0, 0, 0)"
+border_width = 0
+width = 280
+height = 50
+radius = 40
+mask_color = "#DCD7BA"
+font_family = "JetBrainsMono Nerd Font"
+font_weight = 500
+font_size = 16
+text_color = "#DCD7BA"
+halign = "center"
+valign = "center"
+x = 0                 
+y = 0
+relative_to = "auth_input_pill"
+
+
+[visuals.status]
+mode = "inline"
+rejected_color = "#C34043" 
+pending_color = "#957FB8" 
+
+[visuals.eye]
+color = "rgba(220, 215, 186, 0.72)"
+
+[visuals.caps_lock]
+color = "#D27E99" 
+[visuals.placeholder]
+color = "rgba(220, 215, 186, 0.6)"
+
+[[visuals.backdrop]]
+enabled = true
+name = "now_playing"
+show_when = "now_playing"
+mode = "blur"
+color = "rgba(31, 31, 40, 0.55)"
+blur_strength = 16
+radius = 16
+border_color = "rgba(149, 127, 184, 0.2)"
+width = 380
+height = 70
+halign = "left"
+valign = "top"
+x = 40
+y = 40
+z = 1
+
