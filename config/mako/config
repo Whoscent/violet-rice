@@ -1,0 +1,74 @@
+# ==============================
+# Notification Theme
+# ==============================
+
+# Timeout
+default-timeout=5000
+ignore-timeout=0
+
+# Position
+anchor=top-right
+margin=14
+padding=12
+
+# Size
+width=400
+height=120
+
+# --- Main Theme ---
+# Dark navy transparan agar menyatu dengan background blur
+background-color=#0d101beF
+text-color=#d9dcf2
+border-color=#b4a7ff
+progress-color=over #373451
+border-size=2
+border-radius=8
+
+# Font
+font=EB Garamond Semi-Bold 16
+
+# Layout
+max-visible=4
+sort=-time
+layer=overlay
+
+# Icons
+icons=1
+max-icon-size=48
+
+# ==============================
+# Urgency Levels
+# ==============================
+
+[urgency=low]
+background-color=#111522d9
+border-color=#66709a
+text-color=#aeb5d2
+default-timeout=3000
+
+[urgency=normal]
+background-color=#111522e6
+border-color=#9b8cff
+text-color=#d9dcf2
+default-timeout=5000
+
+[urgency=critical]
+background-color=#241724f2
+border-color=#ed829d
+text-color=#ffc3d1
+default-timeout=10000
+
+# ==============================
+# Centered Notifications
+# ==============================
+
+[category=centered]
+anchor=center
+width=400
+height=200
+background-color=#111522f2
+border-color=#9b8cff
+text-color=#e6e8fa
+border-size=2
+border-radius=10
+

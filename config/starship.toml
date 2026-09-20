@@ -1,0 +1,357 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[](fg:color_violet)\
+$os\
+$username\
+[](fg:color_violet bg:color_orange)\
+$directory\
+[](fg:color_orange bg:color_green)\
+$git_branch\
+$git_status\
+[](fg:color_green bg:color_blue)\
+$conda\
+[](fg:color_blue bg:color_light_blue)\
+$python\
+$nodejs\
+$rust\
+$golang\
+$c\
+$cpp\
+$java\
+$kotlin\
+$haskell\
+$php\
+$bun\
+[](fg:color_light_blue bg:color_cream)\
+$cmd_duration\
+[](fg:color_cream bg:color_wave_blue)\
+$time\
+[](fg:color_wave_blue)\
+$line_break\
+$character"""
+
+
+palette = 'kanagawa'
+command_timeout = 500
+scan_timeout = 30
+add_newline = true
+
+[palettes.kanagawa]
+color_fg = '#FFF0F7'
+color_dark = '#24152F'
+
+color_violet = '#7F00FF'
+color_orange = '#826AED'
+color_green = '#C879FF'
+color_light_green = '#E85DFF'
+color_blue = '#FF8BD4'
+color_wave_blue = '#FFF0F7'
+color_light_blue = '#FFD1E8'
+color_cream = '#FFB7FF'
+color_pink = '#FF8BD4'
+color_red = '#D936A5'
+
+
+
+# --- OS ---
+[os]
+disabled = false
+style = "bg:color_violet fg:color_dark"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+AOSC = ""
+Arch = "󰣇"
+Artix = "󰣇"
+EndeavourOS = ""
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+Pop = ""
+
+# --- Username ---
+[username]
+show_always = true
+style_user = "bg:color_violet fg:color_dark bold"
+style_root = "bg:color_red fg:color_dark bold"
+format = '[ $user ]($style)'
+
+# --- Directory ---
+[directory]
+style = "bg:color_orange fg:color_dark bold"
+format = "[ $path ]($style)"
+truncation_length = 5
+truncation_symbol = "…/"
+home_symbol = "~"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
+
+# --- Git Branch ---
+[git_branch]
+symbol = ""
+style = "bg:color_green fg:color_dark bold"
+format = '[ $symbol$branch ]($style)'
+truncation_length = 20
+truncation_symbol = "…"
+
+# --- Git Status ---
+[git_status]
+style = "bg:color_green fg:color_dark bold"
+format = '[$all_status$ahead_behind ]($style)'
+conflicted = "󰀦 "
+ahead = "󰁞 ${count} "
+behind = "󰁆 ${count} "
+diverged = "󰁞 ${ahead_count} 󰁆 ${behind_count} "
+up_to_date = ""
+untracked = "󰄱 ${count} "
+stashed = "󰋻 ${count} "
+modified = "󰄱 ${count} "
+staged = "󰄵 ${count} "
+deleted = "󰩹 ${count} "
+renamed = "󰑕 ${count} "
+
+# --- Conda ---
+[conda]
+style = "bg:color_blue fg:color_dark bold"
+format = '[ $symbol$environment ]($style)'
+ignore_base = false
+
+# --- Python ---
+[python]
+symbol = ""
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol$pyenv_prefix($version) ]($style)'
+pyenv_version_name = true
+pyenv_prefix = ""
+
+# --- Node.js ---
+[nodejs]
+symbol = ""
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- Rust ---
+[rust]
+symbol = ""
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- Golang ---
+[golang]
+symbol = ""
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- C ---
+[c]
+symbol = " "
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- C++ ---
+[cpp]
+symbol = " "
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- Java ---
+[java]
+symbol = ""
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- Kotlin ---
+[kotlin]
+symbol = ""
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- Haskell ---
+[haskell]
+symbol = "  "
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- PHP ---
+[php]
+symbol = ""
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- Bun ---
+[bun]
+symbol = ""
+style = "bg:color_light_blue fg:color_dark bold"
+format = '[ $symbol($version) ]($style)'
+
+# --- Command Duration ---
+[cmd_duration]
+min_time = 2000
+style = "bg:color_cream fg:color_dark bold"
+format = '[ 󰔚 $duration ]($style)'
+show_notifications = false
+
+# --- Time ---
+[time]
+disabled = false
+time_format = "%H:%M"
+style = "bg:color_wave_blue fg:color_dark bold"
+format = '[   $time ]($style)'
+
+# --- Line Break ---
+[line_break]
+disabled = false
+
+# --- Character (Prompt) ---
+[character]
+disabled = false
+success_symbol = '[❯](bold fg:color_pink)'
+error_symbol = '[❯](bold fg:color_red)'
+vicmd_symbol = '[❮](bold fg:color_pink)'
+
+#--- Disable unused ---
+[docker_context]
+disabled = true
+
+[helm]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[terraform]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[azure]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[swift]
+disabled = true
+
+[elixir]
+disabled = true
+
+[erlang]
+disabled = true
+
+[ruby]
+disabled = true
+
+[scala]
+disabled = true
+
+[julia]
+disabled = true
+
+[crystal]
+disabled = true
+
+[dart]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[lua]
+disabled = true
+
+[perl]
+disabled = true
+
+[zig]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[vlang]
+disabled = true
+
+[elm]
+disabled = true
+
+[gradle]
+disabled = true
+
+[cobol]
+disabled = true
+
+[buf]
+disabled = true
+
+[guix_shell]
+disabled = true
+
+[spack]
+disabled = true
+
+[openstack]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[pijul_channel]
+disabled = true
+
+[hg_branch]
+disabled = true
+
+[sudo]
+disabled = true
+
+[shell]
+disabled = true
+
+[shlvl]
+disabled = true
+
+[memory_usage]
+disabled = true
+
+[battery]
+disabled = true
+
+[status]
+disabled = true
+
+[jobs]
+disabled = true
+
+[package]
+disabled = true
+
+[pixi]
+disabled = true
+

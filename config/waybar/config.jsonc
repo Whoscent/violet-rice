@@ -1,0 +1,102 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 4,
+    "spacing": 0,
+    "margin-top": 4,
+    "margin-left": 0,
+    "margin-right": 0,
+    "fixed-center": false,
+    "modules-left": ["custom/launcher", "ext/workspaces", "cpu", "memory", "disk"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "pulseaudio", "bluetooth", "battery", "custom/mpris"],
+    "passthrough": false,
+    "custom/launcher": {
+        "format": "\u2709",
+        "on-click": "rofi -show drun",
+        "on-click-right": "wlogout -b 6",
+        "tooltip": false
+    },
+
+  "ext/workspaces": {
+    "format": "{name}",
+    "ignore-hidden": true,
+    "on-click": "activate",
+    "on-click-right": "deactivate",
+    "sort-by-id": true,
+  },
+
+    "cpu": {
+        "format": "\uf2db {usage}%",
+
+        "interval": 2
+    },
+
+    "memory": {
+        "format": "  {}%",
+        "interval": 2,
+        "tooltip-format": "{used:0.1f}GiB used of {total:0.1f}GiB",
+    },
+
+    "disk": {
+        "format": "\uf0a0  {percentage_used}%",
+        "path": "/",
+        "interval": 60
+    },
+
+    "custom/mpris": {
+        "exec": "~/.config/waybar/scripts/mpris-scroll.sh",
+        "return-type": "json",
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl next",
+        "on-click-middle": "playerctl previous",
+        "escape": true
+    },
+
+    "clock": {
+        "format": "\uf017  {:%H:%M}",
+        "format-alt": "\uf017  {:%A, %d %B %Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt>{calendar}</tt>"
+    },
+
+    "bluetooth": {
+        "format": "󰂲",
+        "format-on": "󰂯",
+        "format-connected": "󰂯 {device_alias}",
+        "format-connected-battery": "󰂯 {device_alias} {device_battery_percentage}%",
+        "tooltip-format": "{controller_alias}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "tooltip-format-enumerated-connected": "{device_alias}\t{device_connected}",
+        "on-click": "~/.config/waybar/scripts/bluetooth-rofi.sh"
+    },
+
+    "network": {
+        "format-wifi": "\uf1eb  {essid}",
+        "format-ethernet": "\uf0e8  {ipaddr}",
+        "format-disconnected": "\uf071  Offline",
+        "tooltip-format-wifi": "{essid} {signalStrength}%",
+        "on-click-right": "bash -c 'networkmanager_dmenu'",
+        "interval": 5,
+        "format-alt": "↓{bandwidthDownBytes} ↑{bandwidthUpBytes}",
+    },
+
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-muted": "\uf026  Muted",
+        "format-icons": {
+            "default": ["\uf026", "\uf027", "\uf028"]
+        },
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol",
+        "tooltip": false
+    },
+
+    "battery": {
+        "states": { "warning": 30, "critical": 15 },
+        "format": "{icon}  {capacity}%",
+        "format-charging": "\uf1e6  {capacity}%",
+        "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"],
+        "tooltip-format": "{timeTo}",
+        "interval": 1
+    },
+}

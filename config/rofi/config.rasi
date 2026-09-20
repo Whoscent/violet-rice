@@ -1,0 +1,28 @@
+configuration {
+    modi:                       "drun,run,window";
+    show-icons:                 true;
+    display-drun:               "";
+    display-run:                "";
+    display-window:             "";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+}
+
+@theme "ib"
+
+// color pallete
+* {
+    font:                        "JetBrainsMono Nerd font 12";
+    background:                  #13121C;
+    background-alt:              #19182180;
+    foreground:                  #E7E2FF;
+    selected:                    #9DA7FF;
+    active:                      #FFA9E2;
+    urgent:                      #FF6E84;
+}
+
+// theme image (image height is set via y-padding)
+inputbar {
+    background-image:            url("~/.config/rofi/themes/Violet.jpg", width);
+    padding:                     75px 60px;
+}
